@@ -40,3 +40,15 @@
     background: red;
     width: 30%;
   }
+  #dclock{
+      margin-top: 250px;
+      margin-left: 160px;
+      position: absolute;
+      font-size: 15px
+  }
+  #dclock1{
+    margin-top: 250px;
+    margin-left: 190px;
+    position: absolute;
+    font-size: 15px
+}
