@@ -1,0 +1,42 @@
+
+  
+  .clock {
+    width: 30rem;
+    height: 30rem;
+  
+  }
+  
+  .outer-clock-face {
+    background-image: url(/starter-code/img/clock_face.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .hand {
+    width: 50%;
+    right: 57%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 40%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+  }
+  
+  .hand.hour-hand {
+    width: 18%;
+    z-index: 3;
+  }
+  
+  .hand.min-hand {
+    height: 3px;
+    z-index: 10;
+    width: 30%;
+  }
+  
+  .hand.second-hand {
+    background: red;
+    width: 30%;
+  }
